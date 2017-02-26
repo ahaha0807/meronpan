@@ -3,19 +3,19 @@ require 'sinatra/reloader'
 
 # View ページ用ルーティング
 get '/' do
-  File.read(File.join('public', 'index.html'))
+  File.read(File.join('public/dist', 'index.html'))
 end
 
 get '/meronpan' do
-  File.read(File.join('public', 'index.html'))
+  File.read(File.join('public/dist', 'index.html'))
 end
 8
 get %r{/meronpan/create/?} do
-  File.read(File.join('public', 'create.html'))
+  File.read(File.join('public/dist', 'create.html'))
 end
 
 get '/meronpan/:id' do |id|
-  File.read(File.join('public', 'show.html'))
+  File.read(File.join('public/dist', 'show.html'))
 end
 
 # API 用ルーティング
