@@ -1,7 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import List from '../compornents/List.jsx'
+import MeronpanList from '../compornents/MeronpanList.jsx'
+import Header from '../compornents/Header.jsx'
 
 ReactDOM.render(
-  <List value="index"/>, document.getElementById('app-index')
+  <Header />, document.getElementById('header')
+)
+
+ReactDOM.render(
+  <MeronpanList value="index"/>, document.getElementById('app-index')
 )
