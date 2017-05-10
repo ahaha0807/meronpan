@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MeronpanList from '../compornents/MeronpanList.jsx'
-import Header from '../compornents/Header.jsx'
+import MeronpanList from '../compornents/index/MeronpanList.jsx'
+import Header from '../compornents/common/Header.jsx'
 
 ReactDOM.render(
   <Header />, document.getElementById('header')
