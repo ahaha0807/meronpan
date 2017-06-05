@@ -1,7 +1,8 @@
 # サーバー起動
 
-1. rootディレクトリで `./dev-start.sh`
-2. ブラウザを起動し、 `localhost:4567` にアクセス
+1. root ディレクトリで `bundle install`
+2. root ディレクトリで `./dev-start.sh`
+3. ブラウザを起動し、 `localhost:4567` にアクセス
 
 # 利用環境
 
