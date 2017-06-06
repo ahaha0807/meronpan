@@ -1,6 +1,6 @@
 #!/bin/sh
 
 cd ./public/
-echo '[INFO] Compile Start'
+echo '[INFO] Watch Start'
 npm run watch
 cd ../
