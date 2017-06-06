@@ -44,7 +44,7 @@ const MeronpanList = React.createClass({
       dataList: [
         { 
           meronpanId: 1,
-          image: 'sample_1.png',
+          image: 'https://i.ytimg.com/vi/5z0e-GKJA10/hqdefault.jpg',
           price: 100,
           visitedDate: '1999-01-01',
           shopName: 'hogehogeパン屋',
@@ -52,7 +52,7 @@ const MeronpanList = React.createClass({
         },
         {
           merinpanId: 2,
-          image: 'sample_2.png',
+          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Melonpan.jpg/300px-Melonpan.jpg',
           price: 200,
           visitedDate: '1999-01-01',
           shopName: 'ブレッドfugafuga',
