@@ -1,5 +1,5 @@
 import React from 'react'
-import Meronpan from './Meronpan.jsx'
+import Meronpan from './Meronpan/Meronpan.jsx'
 import NothingMeronpan from './NothingMeronpan.jsx'
 import Pager from './Pager.jsx'
 

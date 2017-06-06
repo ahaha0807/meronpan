@@ -1,8 +1,8 @@
 import React from 'react'
-import ShopAccess from './SimpleDataMeta/ShopAccess.jsx'
-import Price from './SimpleDataMeta/Price.jsx'
-import VisitedDate from './SimpleDataMeta/VisitedDate.jsx'
-import ShopName from './SimpleDataMeta/ShopName.jsx'
+import ShopAccess from './ShopAccess.jsx'
+import Price from './Price.jsx'
+import VisitedDate from './VisitedDate.jsx'
+import ShopName from './ShopName.jsx'
 
 const MeronpanSimpleData = React.createClass({
   render() {
