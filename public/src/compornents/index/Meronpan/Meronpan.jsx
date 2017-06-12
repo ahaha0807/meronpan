@@ -1,7 +1,7 @@
 import React from 'react'
 import MeronpanThumbnail from './MeronpanThumbnail.jsx'
 import MeronpanSimpleData from './SimpleDataMeta/MeronpanSimpleData.jsx'
-// import ShowDetail from './ShowDetail.jsx'
+import ShowDetail from './ShowDetail.jsx'
 
 const Meronpan = React.createClass({
   render() {
@@ -9,7 +9,7 @@ const Meronpan = React.createClass({
       <li className="index__data">
         <MeronpanThumbnail img={this.props.data.image} />
         <MeronpanSimpleData price={this.props.data.price} visitedDate={this.props.data.visitedDate} shopName={this.props.data.shopName} shopAccess={this.props.data.shopAccess}/>
-        {/*<ShowDetail id={this.props.data.meronpanId}/>*/}
+        <ShowDetail id={this.props.data.meronpanId}/>
       </li>
     );
   }

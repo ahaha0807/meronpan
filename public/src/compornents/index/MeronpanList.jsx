@@ -51,7 +51,7 @@ const MeronpanList = React.createClass({
           shopAccess: 'JR大阪駅から10分'
         },
         {
-          merinpanId: 2,
+          meronpanId: 2,
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Melonpan.jpg/300px-Melonpan.jpg',
           price: 200,
           visitedDate: '1999-01-01',
